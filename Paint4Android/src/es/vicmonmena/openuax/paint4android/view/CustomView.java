@@ -25,6 +25,7 @@ public class CustomView extends View {
 	private Path dPath;
 	private Canvas dCanvas;
 	private Bitmap cBitmap;
+
 	private final int DEFAULT_COLOR = 0xFF000000;
 	
 	public CustomView(Context context, AttributeSet attrs) {
@@ -49,6 +50,8 @@ public class CustomView extends View {
 		Log.d(TAG, "onSizeChanged");
 		cBitmap = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888);
 		dCanvas = new Canvas(cBitmap);
+		// Pintamos el canvas de blanco
+		dCanvas.drawColor(Color.WHITE);
 	}
 	
 	@Override
@@ -117,5 +120,12 @@ public class CustomView extends View {
 	public void clearView() {
 		dCanvas.drawColor(Color.WHITE);
 		invalidate();
+	}
+	
+	/**
+	 * @return the cBitmap
+	 */
+	public Bitmap getcBitmap() {
+		return cBitmap;
 	}
 }
