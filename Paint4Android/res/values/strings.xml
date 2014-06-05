@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Paint4Android</string>
+
+    <string name="action_help">Help</string>
+    <string name="action_help_text">Developed by @vicmonmena. Just draw!</string>
+    
+    <string name="action_size">Path size</string>
+    <string name="action_shape">Path shape</string>
+    
+    <string name="color_red">Red</string>
+    <string name="color_black">Black</string>
+    <string name="color_white">White</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    
+    <string name="path_size">Path size</string>
+    <string name="size_super">Super</string>
+    <string name="size_large">Large</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_small">Small</string>
+    <string name="size_micro">Micro</string>
+    
+    <string name="path_shape">Path shape</string>
+    <string name="shape_round">Round</string>
+    <string name="shape_square">Square</string>
+    <string name="shape_butt">Irregular</string>
+    
+    <string name="rubber">Rubber</string>
+    <string name="clean_message">Sure you want to clean the screen?</string>
+</resources>

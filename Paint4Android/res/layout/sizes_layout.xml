@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/superSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/size_super"
+        android:drawableLeft="@drawable/ic_size_64px"
+        android:gravity="center_vertical"
+        android:text="@string/size_super"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/largeSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/size_large"
+        android:drawableLeft="@drawable/ic_size_48px"
+        android:text="@string/size_large"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:gravity="center_vertical"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/mediumSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/size_medium"
+        android:drawableLeft="@drawable/ic_size_24px"
+        android:text="@string/size_medium"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/smallSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/size_small"
+        android:drawableLeft="@drawable/ic_size_16px"
+        android:text="@string/size_small"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/microSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/size_micro"
+        android:drawableLeft="@drawable/ic_size_8px"
+        android:gravity="center_vertical"
+        android:text="@string/size_micro"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

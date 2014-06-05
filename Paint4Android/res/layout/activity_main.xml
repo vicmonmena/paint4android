@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity" 
+    android:background="#F2F2F2">
+    <LinearLayout
+        android:id="@+id/colorPallete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFF"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imageViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#888888"
+            android:contentDescription="@string/color_black"
+            android:onClick="onImageClicked"
+            android:padding="3dp"
+            android:src="@drawable/ic_color_black"
+            android:tag="black" />
+
+        <ImageView
+            android:id="@+id/imageViewRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/color_red"
+            android:onClick="onImageClicked"
+            android:padding="3dp"
+            android:src="@drawable/ic_color_red"
+            android:tag="red" />
+
+        <ImageView
+            android:id="@+id/imageViewYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/color_yellow"
+            android:onClick="onImageClicked"
+            android:padding="3dp"
+            android:src="@drawable/ic_color_yellow"
+            android:tag="yellow" />
+
+        <ImageView
+            android:id="@+id/imageViewGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/color_green"
+            android:onClick="onImageClicked"
+            android:padding="3dp"
+            android:src="@drawable/ic_color_green"
+            android:tag="green" />
+
+        <ImageView
+            android:id="@+id/imageViewBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/color_blue"
+            android:onClick="onImageClicked"
+            android:padding="3dp"
+            android:src="@drawable/ic_color_blue"
+            android:tag="blue" />
+        
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#F2F2F2"/>
+        
+        <ImageView
+            android:id="@+id/imageViewRubber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/rubber"
+            android:onClick="onImageClicked"
+            android:padding="3dp"
+            android:src="@drawable/ic_rubber"
+            android:tag="white" />
+        
+    </LinearLayout>
+
+    <es.vicmonmena.openuax.paint4android.view.CustomView
+        android:id="@+id/customView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFF"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="999"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_help"
+        android:icon="@drawable/ic_action_help"/>
+    <item
+        android:id="@+id/action_size"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_size"
+        android:icon="@drawable/ic_action_size"/>
+    <item
+        android:id="@+id/action_shape"
+        android:orderInCategory="102"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_shape"
+        android:icon="@drawable/ic_action_shape"/>
+</menu>
