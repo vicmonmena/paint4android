@@ -3,8 +3,8 @@
 
     <string name="app_name">Paint4Android</string>
 
-    <string name="action_help">Help</string>
-    <string name="action_help_text">Developed by @vicmonmena. Just draw!</string>
+    <string name="action_help">Info</string>
+    <string name="action_help_text">Developed by @vicmonmena. Let's draw!!</string>
     <string name="action_save">Save</string>
     <string name="action_share">Share</string>
     
@@ -13,6 +13,7 @@
     
     <string name="color_red">Red</string>
     <string name="color_black">Black</string>
+    <string name="color_custom">Custom</string>
     <string name="color_white">White</string>
     <string name="color_yellow">Yellow</string>
     <string name="color_green">Green</string>
@@ -37,4 +38,9 @@
     <string name="save_fail">Oop! An error has happend! Please, contact to @vicmonmena</string>
     
     <string name="share_message">Look! I have done it with Paint4Android developed by @vicmonmena</string>
+    
+    <string name="warning">Warning!</string>
+    <string name="sensor_not_available">Accelerometer not available on your device</string>
+    
+    <string name="set_custom_color">Set your custom color in hexadecimal (RRGGBB)</string>
 </resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Paint4Android</string>
+
+    <string name="action_help">Info</string>
+    <string name="action_help_text">Desarrollado por @vicmonmena. A dibujar!</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_share">Compartir</string>
+    
+    <string name="action_size">Tamaño</string>
+    <string name="action_shape">Forma</string>
+    
+    <string name="color_red">Rojo</string>
+    <string name="color_black">Negro</string>
+    <string name="color_custom">Personalizado</string>
+    <string name="color_white">Blanco</string>
+    <string name="color_yellow">Amarillo</string>
+    <string name="color_green">Verde</string>
+    <string name="color_blue">Azul</string>
+    
+    <string name="path_size">Tamaño del Trazado</string>
+    <string name="size_super">Super</string>
+    <string name="size_large">Grande</string>
+    <string name="size_medium">Mediano</string>
+    <string name="size_small">Pequeño</string>
+    <string name="size_micro">Micro</string>
+    
+    <string name="path_shape">Forma del trazado</string>
+    <string name="shape_round">Redondo</string>
+    <string name="shape_square">Cuadrado</string>
+    <string name="shape_butt">Irregular</string>
+    
+    <string name="rubber">Goma</string>
+    <string name="clean_message">Seguro que quieres limpiar la pantalla?</string>
+    
+    <string name="save_ok">Oh Yeah! Tu dibujo se ha guardado correctamente!</string>
+    <string name="save_fail">Oop! Ha ocurrido un error! Por favor, contacta con @vicmonmena</string>
+    
+    <string name="share_message">Mira! He hecho esto con Paint4Android desarrollado por @vicmonmena</string>
+    
+    <string name="warning">Atención!</string>
+    <string name="sensor_not_available">El Acelerómetro no está disponible en tu dispositivo.</string>
+    
+    <string name="set_custom_color">Personaliza tu color en código hexadecimal (RRGGBB)</string>
+</resources>

@@ -16,18 +16,17 @@
         android:gravity="center"
         android:background="#FFF"
         android:layout_marginBottom="5dp">
-
+        
         <ImageView
-            android:id="@+id/imageViewBlack"
+            android:id="@+id/customColorImgView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#888888"
             android:contentDescription="@string/color_black"
+            android:src="@drawable/ic_custom_color"
             android:onClick="onImageClicked"
-            android:padding="3dp"
-            android:src="@drawable/ic_color_black"
-            android:tag="black" />
-
+            android:layout_margin="3dp"
+            android:tag="custom" />
+        
         <ImageView
             android:id="@+id/imageViewRed"
             android:layout_width="wrap_content"
