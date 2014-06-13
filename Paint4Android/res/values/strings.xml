@@ -4,7 +4,7 @@
     <string name="app_name">Paint4Android</string>
 
     <string name="action_help">Info</string>
-    <string name="action_help_text">Developed by @vicmonmena. Let's draw!!</string>
+    <string name="action_help_text">Developed by @vicmonmena. Let\'s draw!</string>
     <string name="action_save">Save</string>
     <string name="action_share">Share</string>
     

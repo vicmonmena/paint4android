@@ -50,7 +50,7 @@ public class MainActivity extends Activity implements OnLongClickListener, Senso
 	/**
 	 * Límite de aceleración para limpiar pantalla
 	 */
-	private static final float ACCELERATION_UMBRAL = 30.0f;
+	private static final float ACCELERATION_UMBRAL = 28.0f;
 	
 	/**
 	 *  Carpeta donde se guardan los dibujos.
